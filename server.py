@@ -7,7 +7,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Directory where uploaded files will be stored
-UPLOAD_FOLDER = r'C:\Users\FAJJOS\OneDrive\Desktop\Raspberry'
+UPLOAD_FOLDER = r'C:\Users\Fatima\OneDrive\Desktop\Raspberry'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 def calculate_brightness(image):
